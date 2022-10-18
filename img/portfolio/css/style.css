@@ -195,22 +195,22 @@ body {
 	font-size: 18px;
 	position: relative;
 	transition: all 500ms ease;
-	color: #314355;
+	color: #0b0b0b;
 }
 .container-bar a:hover{
-	background: #0c0000;
+	background: #7b7979;
 }
 
 .container-bar .fa-envelope{
-	background: #00B87B
+	background: #ADA996
 }
 .container-bar .fa-github{
-	background: #00B87B
+	background: #ADA996;
 }.container-bar .fa-linkedin-square{
-	background: #00B87B
+	background: #ADA996;
 }
 .container-bar .fa-address-book{
-	background: #00B87B
+	background: #ADA996;
 }
 
 .container-bar #title{
@@ -249,10 +249,9 @@ body {
 .fa-info-circle{
 	cursor: pointer;
   transition: all 400ms ease-out;
-	font-size: 25px;
+	font-size: 50px;
 	margin-bottom: 5px;
-  margin-left: -1rem;
-	color: #cde3f9;
+	color: #0b0b0b;
 }
 
 .icon-social{
@@ -274,7 +273,6 @@ body {
      position:relative;
       height: 250px;
       margin-right: 2rem;
-     
       cursor: pointer;
   }
   .contenedor figure img{
@@ -288,6 +286,7 @@ body {
       top: 0;
       width: 100%;
       height: 100%;
+      background: rgba(0,103,123,0.7);
       transition: all 400ms ease-out;
       opacity: 0;
       visibility: hidden;
