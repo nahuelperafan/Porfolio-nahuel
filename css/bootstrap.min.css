@@ -43,17 +43,6 @@
     }
 }
 
-body {
-    margin: 0;
-    font-family: "Heebo", sans-serif;
-    font-size: 1rem;
-    font-weight: 400;
-    line-height: 1.5;
-    color: #eee;
-    background-color: #2C3E50;
-    -webkit-text-size-adjust: 100%;
-    -webkit-tap-highlight-color: rgba(0, 0, 0, 0)
-}
 
 hr {
     margin: 1rem 0;
@@ -293,7 +282,8 @@ kbd kbd {
 }
 
 figure {
-    margin: 0 0 1rem
+    margin: 0 0 1rem;
+    
 }
 
 img,
@@ -4745,17 +4735,18 @@ fieldset:disabled .btn {
 }
 
 .card {
-    position: relative;
+    /* position: relative; */
     display: flex;
     flex-direction: column;
     min-width: 0;
     word-wrap: break-word;
-    background-color: #fff;
+    background-color: #2c2f2f;
     background-clip: border-box;
     border: 1px solid rgba(0, 0, 0, 0.125);
     margin-right: 2rem;
-    margin-left: 2rem;
-    margin-bottom: 1rem;
+    margin-left: -1rem;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    border-radius: 2rem;
 }
 
 .card>hr {
@@ -4787,16 +4778,27 @@ fieldset:disabled .btn {
 }
 
 .card-title {
-    margin-bottom: .5rem
+    margin-top: 8rem;
+    margin-bottom: .1rem;
+    font-size: 3rem;
+    color: #f5f5f7;
+    font-family: 'Dosis', sans-serif;
+    font-weight: lighter;
 }
 
 .card-subtitle {
-    margin-top: -.25rem;
-    margin-bottom: 0
+    margin-bottom: .1rem;
+    font-size: 3rem;
+    color: #f5f5f7;
+    font-family: 'Dosis', sans-serif;
+    font-weight: lighter;
 }
 
 .card-text:last-child {
-    margin-bottom: 0
+    margin-bottom: 0;
+    font-size: 2rem;
+    color:#00B87B;
+    font-family: 'Dosis', sans-serif;
 }
 
 .card-link:hover {
@@ -4850,8 +4852,11 @@ fieldset:disabled .btn {
 .card-img,
 .card-img-top,
 .card-img-bottom {
-    width: 80%;
-    background-size: cover;
+    width: 50%;
+    margin-top: 1rem;
+    margin-left: 5rem;
+    margin-bottom: -3rem;
+    
 }
 
 .card-group>.card {
@@ -7964,9 +7969,11 @@ fieldset:disabled .btn {
 }
 
 .text-primary {
-    color: #00B87B !important;
-    margin-left: 25rem;
-    font-family: 'Dosis', sans-serif;
+    color: #f5f5f7 !important;
+    font-size: 3rem;
+    font-weight: lighter;
+    margin-left: 24rem;
+    font-family: 'SF Pro Text', sans-serif;
 }
 
 
@@ -12214,4 +12221,41 @@ fieldset:disabled .btn {
     .d-print-none {
         display: none !important
     }
+}
+
+#modo{
+    width: 30px;
+    font-size: 70px;
+    margin: auto;
+    cursor: pointer;
+}
+
+.dark{
+    background: rgba(0,0,0,0.8);
+}
+
+.dark h1{
+    color: #f5f5f7;
+}
+
+.dark .descripcion{
+    color: #f5f5f7;
+}
+.dark #modo{
+    color: orange;
+}
+.dark .card__perfil{
+    background: rgb(16, 43, 51);
+}
+.dark p{
+    color: rgb(211, 211, 211);
+}
+.dark h2{
+    color: white;
+}
+.dark .enlace{
+    background: rgb(13, 84, 117);
+}
+.dark .card__perfil:hover{
+    border: solid green 2px;
 }
