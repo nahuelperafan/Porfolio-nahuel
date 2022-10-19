@@ -1,3 +1,19 @@
+let modo=document.getElementById("modo");
+let body=document.body;
+
+modo.addEventListener("click", function(){
+    let val=body.classList.toggle("dark")
+    localStorage.setItem("modo",val)
+})
+
+let valor=localStorage.getItem("modo")
+
+if (valor=="true") {
+    body.classList.add("dark")
+} else {
+    body.classList.remove("dark")
+}
+
 (function ($) {
     "use strict";
 
@@ -47,15 +63,6 @@
         }
     });
     
-    
-    //  Skills
-    // $('.skill').waypoint(function () {
-    //     $('.progress .progress-bar').each(function () {
-    //         $(this).css("width", $(this).attr("aria-valuenow") + '%');
-    //     });
-    // }, {offset: '80%'});
-
-
     // Portfolio isotope and filter
     var portfolioIsotope = $('.portfolio-container').isotope({
         itemSelector: '.portfolio-item',
@@ -81,4 +88,3 @@
         return false;
     });
 })(jQuery);
-
