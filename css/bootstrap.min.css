@@ -4785,7 +4785,7 @@ fieldset:disabled .btn {
     margin: auto;
     margin-top: 8rem;
     font-size: 3rem;
-    color: #314355;
+    color: #000;
     font-family: 'Dosis', sans-serif;
     font-weight: lighter;
 }
@@ -4803,6 +4803,28 @@ fieldset:disabled .btn {
     cursor: pointer;
     margin-left: 1rem;
   }
+.dark .container-bar a:hover{
+	background: rgb(4, 24, 27);
+}
+
+.dark .container-bar .fa-envelope{
+	background: rgb(4, 24, 27);
+}
+.dark .container-bar .fa-moon{
+	background: rgb(4, 24, 27);
+}
+.dark .container-bar .fa-github{
+	background: rgb(4, 24, 27);
+  margin-left: 3rem;
+  margin-top: 1rem;
+}
+.dark .container-bar .fa-linkedin-square{
+	background: rgb(4, 24, 27);
+}
+.dark .container-bar .fa-address-book{
+	background: rgb(4, 24, 27);
+}
+
   .dark{
     background: rgb(4, 24, 27);
   }
@@ -4814,9 +4836,6 @@ fieldset:disabled .btn {
   }
   .dark .card{
    background-color: #2c2f2f;
-  }
-  .dark #modo{
-    color: #2c2f2f;
   }
   .dark .card__perfil{
     background: rgb(16, 43, 51);
@@ -4894,7 +4913,7 @@ fieldset:disabled .btn {
 .card-img-bottom {
     width: 50%;
     margin-top: 2rem;
-    margin-left: 7rem;
+    margin-left: 5rem;
     margin-bottom: -3rem;
     
 }
@@ -8008,7 +8027,7 @@ fieldset:disabled .btn {
 }
 
 .text-primary {
-    color: #314355;
+    color: #000;
     font-size: 3rem;
     font-weight: lighter;
     margin: auto;

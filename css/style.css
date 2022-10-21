@@ -11,7 +11,7 @@ body {
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.5;
-  background: #FFF6E5;
+  background: #FFF;
   -webkit-text-size-adjust: 100%;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0)
 }
@@ -197,25 +197,25 @@ body {
   margin: auto;
 }
 .container-bar a:hover{
-	background: #0c0000;
+	background: #1c1c1c;
 }
 
 .container-bar .fa-envelope{
-	background: #FFF6E5;
+	background: #FFF;
 }
 .container-bar .fa-moon{
-	background: #FFF6E5;
+	background: #FFF;
 }
 .container-bar .fa-github{
-	background: #FFF6E5;
+	background: #FFF;
   margin-left: 3rem;
   margin-top: 1rem;
 }
 .container-bar .fa-linkedin-square{
-	background: #FFF6E5;
+	background: #FFF;
 }
 .container-bar .fa-address-book{
-	background: #FFF6E5;
+	background: #FFF;
 }
 
 .container-bar #title{
